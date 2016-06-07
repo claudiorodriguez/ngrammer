@@ -1,0 +1,31 @@
+{
+  "name": "ngrammer",
+  "version": "0.1.0",
+  "description": "Frequency analysis for javascript code",
+  "main": "ngrammer.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiorodriguez/ngrammer.git"
+  },
+  "keywords": [
+    "ngram",
+    "nlp"
+  ],
+  "author": "Claudio Rodriguez <cjrodr@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiorodriguez/ngrammer/issues"
+  },
+  "homepage": "https://github.com/claudiorodriguez/ngrammer#readme",
+  "dependencies": {
+    "nlp-ngram": "0.0.2",
+    "nlp_compromise": "^6.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
